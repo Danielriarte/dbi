@@ -1,9 +1,16 @@
 [
     {
-        "title": "Images, Transformations, Abstractions",
+        "title": "Decisiones Bajo Incertidumbre",
         "contents": [
             {
-                "name": "The Newton Method",
+                "name": "Optimización Bajo Incertidumbre",
+                "notebook_path": "notebooks/week3/newton_method.jl",
+                "video_id": "",
+                "preview_image_url": ""
+            },
+
+            {
+                "name": "Árboles de Decisión",
                 "notebook_path": "notebooks/week3/newton_method.jl",
                 "video_id": "",
                 "preview_image_url": ""
@@ -11,14 +18,28 @@
         ]
     },
     {
-        "title": "Climate Science",
+        "title": "Programación Dinámica",
         "contents": [
             {
-                "name": "GitHub & Open Source Software",
-                "notebook_path": "notebooks/week12/how_to_collaborate_on_software.jl",
-                "video_id": "7N9Vvc8amGM",
-                "preview_image_url": "https://user-images.githubusercontent.com/6933510/136199704-ba6d0586-34bf-490c-8fd0-6959ab42cd23.png"
-            }
+                "name": "Programación Dinámica Estocástica",
+                "notebook_path": "notebooks/week3/newton_method.jl",
+                "video_id": "",
+                "preview_image_url": ""
+            },
+
+            {
+                "name": "Programación Dinámica con Horizonte Determinista",
+                "notebook_path": "notebooks/week3/newton_method.jl",
+                "video_id": "",
+                "preview_image_url": ""
+            },
+
+            {
+                "name": "Programación Dinámica con Horizonte Infinito Descontado",
+                "notebook_path": "notebooks/week3/newton_method.jl",
+                "video_id": "",
+                "preview_image_url": ""
+            } 
         ]
     }
 ]
