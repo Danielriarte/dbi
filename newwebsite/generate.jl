@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.18.0
+# v0.17.3
 
 using Markdown
 using InteractiveUtils
@@ -55,16 +55,16 @@ md"""
 """
 
 # ╔═╡ 2bee2fc7-3322-457f-a835-028c80eaf059
-TITLE = "A Great Course"
+TITLE = "Decisiones Bajo Incertidumbre"
 
 # ╔═╡ a0057e4c-0bcf-4970-8a2b-0412ad5af510
-SUBTITLE = "Content and Code"
+SUBTITLE = "Let's take a random walk..."
 
 # ╔═╡ 4be56e57-fea0-4fbe-9659-44bed594b1b2
-INSTITUTION = "University of Greatness"
+INSTITUTION = "Universidad de Chile"
 
 # ╔═╡ ab7186a4-2287-41da-a939-70f142bfeacd
-TERM = "Spring 2022"
+TERM = "Primavera 2022"
 
 # ╔═╡ 83130e69-9b67-44b5-ad32-500162abc0d2
 md"""
@@ -79,7 +79,7 @@ available at `https://username.github.io/YourPackage.jl/` then the pre-path shou
 
 # ╔═╡ 88e1e91d-0d48-42e0-b4ab-4866624fd745
 begin
-	PREPATH = "pluto-course-template"
+	PREPATH = "dbi"
 	@skip_as_script PREPATH = ""
 end
 
@@ -96,19 +96,19 @@ show_section_number = false
 
 # ╔═╡ 01a2336a-5c04-4d5a-bb0b-a9c704517dbf
 pages = [
-	(page = "/reviews/", title = "Class Reviews"),
-	(page = "/logistics/", title = "Class Logistics"),
-	(page = "/syllabus/", title = "Syllabus and videos"),
-	(page = "/installation/", title = "Software installation"),
-	(page = "/cheatsheets/", title = "Cheatsheets"),
-	(page = "/semesters/", title = "Previous semesters")
+	(page = "/reviews/", title = "Revisión de clases"),
+	(page = "/logistics/", title = "Logistica"),
+	(page = "/syllabus/", title = "Syllabus y videos"),
+	(page = "/installation/", title = "Instalación de software"),
+	(page = "/cheatsheets/", title = "Set de problemas"),
+	(page = "/semesters/", title = "Semestres anteriores")
 ]
 
 # ╔═╡ c0768146-5ea0-4736-94f8-2c1a2affa922
 SLASH_PREPATH = !isempty(PREPATH) ? "/" * PREPATH : ""
 
 # ╔═╡ 02e00e09-76a5-4f38-8557-4d9caf280b4c
-homepage = (page = "/index.html", href = "$SLASH_PREPATH/", title = "Welcome")
+homepage = (page = "/index.html", href = "$SLASH_PREPATH/", title = "Welcome!")
 
 # ╔═╡ d83ee9b9-d255-4217-a776-3b0f4f168c8f
 @bind regenerate Button("Regenerate!")
@@ -212,8 +212,8 @@ end
 
 # ╔═╡ 3e93e57c-3660-416f-9874-d43abf99e60e
 INSTRUCTORS = [
-	(name = "Person 1", href = ""),
-	(name = "Person 2", href = "")
+	(name = "Denis Saure", href = "http://dii.uchile.cl/~dsaure/"),
+	(name = "Daniel Iriarte", href = "")
 ] |> instructors
 
 # ╔═╡ feaed8af-05d0-4b80-9f69-8f827f9343a8
@@ -811,7 +811,7 @@ StructTypes = "~1.8.1"
 PLUTO_MANIFEST_TOML_CONTENTS = """
 # This file is machine-generated - editing it directly is not advised
 
-julia_version = "1.7.2"
+julia_version = "1.7.3"
 manifest_format = "2.0"
 
 [[deps.AbstractPlutoDingetjes]]
@@ -907,7 +907,7 @@ uuid = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 version = "0.8.6"
 
 [[deps.Downloads]]
-deps = ["ArgTools", "LibCURL", "NetworkOptions"]
+deps = ["ArgTools", "FileWatching", "LibCURL", "NetworkOptions"]
 uuid = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
 
 [[deps.Expat_jll]]
