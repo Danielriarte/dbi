@@ -270,7 +270,7 @@ function sidebar_code(book_model)
     <br>
     $(map(enumerate(book_model)) do (chapter_number, chap)
 		@htl("""
-		<div class="course-section">Module $(chapter_number): $(chap.title)</div>
+		<div class="course-section">Modulo $(chapter_number): $(chap.title)</div>
 		
 		$(map(enumerate(chap.contents)) do (section_number, section)
 
