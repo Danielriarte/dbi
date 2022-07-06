@@ -4,7 +4,7 @@
         "contents": [
             {
                 "name": "Optimización Bajo Incertidumbre",
-                "notebook_path": "notebooks/week3/newton_method.jl",
+                "notebook_path": "notebooks/week1/optimizacion_bajo_incertidumbre.jl",
                 "video_id": "",
                 "preview_image_url": ""
             },
