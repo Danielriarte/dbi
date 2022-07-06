@@ -22,21 +22,21 @@
         "contents": [
             {
                 "name": "Programación Dinámica Estocástica",
-                "notebook_path": "notebooks/week3/newton_method.jl",
+                "notebook_path": "",
                 "video_id": "",
                 "preview_image_url": ""
             },
 
             {
                 "name": "Programación Dinámica con Horizonte Determinista",
-                "notebook_path": "notebooks/week3/newton_method.jl",
+                "notebook_path": "",
                 "video_id": "",
                 "preview_image_url": ""
             },
 
             {
                 "name": "Programación Dinámica con Horizonte Infinito Descontado",
-                "notebook_path": "notebooks/week3/newton_method.jl",
+                "notebook_path": "",
                 "video_id": "",
                 "preview_image_url": ""
             } 
