@@ -261,6 +261,14 @@ md"""
 Para madurar estas ideas, en particular el concepto de política de decisión, a continuación revisaremos el caso quizás más sencillo de modelo de toma de decisiones secuenciales.
 """
 
+# ╔═╡ 2e0e9e5b-f433-4629-a127-7acb5dfedf7c
+md"""
+# Appendix
+"""
+
+# ╔═╡ e2ddbf2b-ce4f-4407-8240-6251b120416f
+TableOfContents()
+
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
 [deps]
@@ -536,5 +544,7 @@ uuid = "3f19e933-33d8-53b3-aaab-bd5110c3b7a0"
 # ╟─1f36c5be-0d40-4091-a7f0-2f5f4e0e9fa3
 # ╟─cc8cbb69-f94e-43f8-9cf5-e1c4754c4b4c
 # ╟─2f329466-df07-4a60-86f9-c27aad4761a5
+# ╟─2e0e9e5b-f433-4629-a127-7acb5dfedf7c
+# ╠═e2ddbf2b-ce4f-4407-8240-6251b120416f
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002
