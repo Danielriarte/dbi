@@ -251,7 +251,7 @@ md"""
 >En el caso del Newsvendor multiperíodo, $a_n$ representa el número de ejemplares a comprar al comienzo del período $n$. En este caso, las políticas de decisión deben decidir el valor de $a_n$ solamente en función de la historia del proceso. Normalmente tratremos de resumir dicha historia en un número reducido de indicadores. 
 >
 >Por ejemplo, suponiendo que $D_1, ... ,D_n$ forma una secuencia de variables aleatorias independientes, la informacion histórica relevante para la toma de decisiones al comienzo de un período es simplemente el inventario de revistas disponibles al comienzo del período. En este caso, podremos escribir una política >como un conjunto de funciones
->$$mu(\cdot) = (\mu_1(\cdot), \ldots \mu_N(\cdot))$$
+>$$\mu(\cdot) = (\mu_1(\cdot), \ldots \mu_N(\cdot))$$
 >Donde $\mu_n(x)$ representa cuántos ejemplares ordenar cuando el inventario disponible al comienzo del período $n$ es $x$.
 >Parte del curso se enfoca en utilizar indicadores eficientes en nuestro modelamiento.
 """
