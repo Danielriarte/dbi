@@ -11,7 +11,7 @@
 
             {
                 "name": "Árboles de Decisión",
-                "notebook_path": "notebooks/week1/mm1.jl",
+                "notebook_path": "notebooks/week1/optimizacion_bajo_incertidumbre.jl",
                 "video_id": "",
                 "preview_image_url": ""
             }
@@ -22,7 +22,7 @@
         "contents": [
             {
                 "name": "Programación Dinámica Estocástica",
-                "notebook_path": "notebooks/week1/mm1.jl",
+                "notebook_path": "notebooks/week1/optimizacion_bajo_incertidumbre.jl",
                 "video_id": "",
                 "preview_image_url": ""
             },
