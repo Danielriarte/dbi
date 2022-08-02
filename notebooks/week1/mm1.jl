@@ -35,7 +35,7 @@ begin
 		title = "Histograma de tiempos de llegada",
 		label = "",
 		color = "pink",  
-		bins = :scott, bar_edges = true,
+		bins = :scott, 
 	)
 	vline!([λ1], label = "Tasa de llegada esperada = $λ1", color = "purple", linewidth=3)
 	xlabel!("Tasa de llegada")
