@@ -54,7 +54,7 @@ begin
 		title = "Histograma de tiempos de atención",
 		label = "",
 		color = "pink",  
-		bins = :scott, bar_edges = true,
+		bins = :scott,
 	)
 	vline!([μ1], label = "Tasa de atención esperada = $μ1", color = "purple", linewidth=3)
 	xlabel!("Tasa de atención")
@@ -1259,7 +1259,7 @@ version = "0.9.1+5"
 # ╠═88bb8170-debb-4e9c-ac30-b7b13781f607
 # ╠═e5a7e5be-d951-4e3b-affa-9b57795b50e9
 # ╟─33ecf9b3-6234-4ef6-bf2c-005270b1142a
-# ╟─20d3eeaa-9813-41bc-ac0f-85303390797d
+# ╠═20d3eeaa-9813-41bc-ac0f-85303390797d
 # ╟─94debdcf-18c4-4365-ad36-6aec930ab88b
 # ╠═81b458ea-c406-46d0-90c5-a21df9cd0598
 # ╠═72fccafa-bdb7-4a7f-811f-f88470c89124
