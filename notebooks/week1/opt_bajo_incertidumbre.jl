@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.17.3
+# v0.19.9
 
 using Markdown
 using InteractiveUtils
@@ -7,7 +7,6 @@ using InteractiveUtils
 # ╔═╡ 44c5923a-38ed-4d9b-bf37-1d7d7ba9bce0
 begin
 	using PlutoUI
-	using HypertextLiteral
 	using LinearAlgebra
 	using FileIO
 end
@@ -192,7 +191,7 @@ md"""
 >
 >es decir
 >
->$$a^* = F^{-1}(1-c/p)$$.
+>$$a^* = F^{-1}(1-c/p)$$
 """
 
 # ╔═╡ 6c4ca980-58d0-4742-8efb-ac8aaab45e3c
@@ -272,13 +271,11 @@ TableOfContents()
 PLUTO_PROJECT_TOML_CONTENTS = """
 [deps]
 FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
-HypertextLiteral = "ac1192a8-f4b3-4bfe-ba22-af5b92cd3ab2"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 PlutoUI = "7f904dfe-b85e-4ff6-b463-dae2292396a8"
 
 [compat]
 FileIO = "~1.15.0"
-HypertextLiteral = "~0.9.4"
 PlutoUI = "~0.7.39"
 """
 
@@ -528,7 +525,7 @@ uuid = "3f19e933-33d8-53b3-aaab-bd5110c3b7a0"
 # ╟─621a5f11-9af2-47ba-aeab-6d59e4141e67
 # ╟─24194d65-7fbd-4e70-9141-7682d508dcfd
 # ╟─dc0e8d10-4cbf-4029-9ef1-59054ad0a33d
-# ╟─a53d85b4-7a21-4097-b486-fa12649f5184
+# ╠═a53d85b4-7a21-4097-b486-fa12649f5184
 # ╟─6c4ca980-58d0-4742-8efb-ac8aaab45e3c
 # ╟─3609a782-66cc-4d70-8e07-d23a362341a0
 # ╟─09452d19-ebfc-47f0-b3ec-22c55e9cdc57
