@@ -10,7 +10,6 @@ begin
 	using HypertextLiteral
 	using LinearAlgebra
 	using FileIO
-	using LaTeXStrings
 end
 
 # ╔═╡ 967d854d-fd86-4f12-af95-f8b9e3bc7e37
