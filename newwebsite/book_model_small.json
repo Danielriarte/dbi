@@ -4,14 +4,14 @@
         "contents": [
             {
                 "name": "Optimización Bajo Incertidumbre",
-                "notebook_path": "notebooks/week1/optimizacion_bajo_incertidumbre.jl",
+                "notebook_path": "notebooks/week1/opt_bajo_incertidumbre.jl",
                 "video_id": "",
                 "preview_image_url": ""
             },
 
             {
                 "name": "Árboles de Decisión",
-                "notebook_path": "notebooks/week1/optimizacion_bajo_incertidumbre.jl",
+                "notebook_path": "notebooks/week1/opt_bajo_incertidumbre.jl",
                 "video_id": "",
                 "preview_image_url": ""
             }
@@ -22,21 +22,21 @@
         "contents": [
             {
                 "name": "Programación Dinámica Estocástica",
-                "notebook_path": "notebooks/week1/optimizacion_bajo_incertidumbre.jl",
+                "notebook_path": "notebooks/week1/opt_bajo_incertidumbre.jl",
                 "video_id": "",
                 "preview_image_url": ""
             },
 
             {
                 "name": "Programación Dinámica con Horizonte Determinista",
-                "notebook_path": "notebooks/week1/optimizacion_bajo_incertidumbre.jl",
+                "notebook_path": "notebooks/week1/opt_bajo_incertidumbre.jl",
                 "video_id": "",
                 "preview_image_url": ""
             },
 
             {
                 "name": "Programación Dinámica con Horizonte Infinito Descontado",
-                "notebook_path": "notebooks/week1/optimizacion_bajo_incertidumbre.jl",
+                "notebook_path": "notebooks/week1/opt_bajo_incertidumbre.jl",
                 "video_id": "",
                 "preview_image_url": ""
             } 
